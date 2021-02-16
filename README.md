@@ -1,8 +1,8 @@
 # AspectJ and Immutables
 
-This repo demonstrates an issue with the combination of AspectJ and Immutables annotation processors.
+This repo demonstrates an issue with the combination of [AspectJ](https://www.mojohaus.org/aspectj-maven-plugin/index.html) and [Immutables](https://immutables.github.io) annotation processors.
 
-It contains of four modules:
+It consists of four modules:
 
 1. [aspectj](aspectj) -- an implementation of a cross-domain concern, @LogExecutionTime, using AspectJ
 1. [immutables](immutables) -- an implementation of an immutable model, using Immutables
