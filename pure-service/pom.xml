@@ -61,16 +61,12 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>aspectj-maven-plugin</artifactId>
                 <configuration>
-                    <weaveDependencies>
-                        <weaveDependency>
+                    <aspectLibraries>
+                        <aspectLibrary>
                             <groupId>net.temirov</groupId>
                             <artifactId>aspectj</artifactId>
-                        </weaveDependency>
-                        <weaveDependency>
-                            <groupId>net.temirov</groupId>
-                            <artifactId>immutables</artifactId>
-                        </weaveDependency>
-                    </weaveDependencies>
+                        </aspectLibrary>
+                    </aspectLibraries>
                 </configuration>
                 <executions>
                     <execution>
